@@ -20,14 +20,13 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 0vw 6vw;
+  padding: 0px 100px;
   background-color: white;
-  box-shadow: 0 2px 10px rgba(0,0,0,0.1); /* Optional: adds a shadow */
 }
 
 .logo {
     height: 58px;
-    width: auto;
+    width: 231px;
 }
 
 .nav-links {
@@ -48,7 +47,7 @@ body {
   height: 46px;
   width: 147px;
   font-size: 18px;
-  padding: 14px 22px;
+  font-weight: 500;
   color: white;
   background-color: #fa1239;
   border-radius: 30px;
@@ -77,7 +76,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 115vh;
+  height: 709px;
   width: 100%;
   background: linear-gradient(
     90deg,
@@ -91,8 +90,8 @@ body {
   position: absolute;
   left: 6.5vw;
   top: 19%;
-  width: 40vw;
-  height: 73vh;
+  width: 620px;
+  height: 510px;
   display: flex;
   flex-direction: column;
   gap: 38px;
@@ -101,7 +100,7 @@ body {
 .hero-left h1 {
   height: 252px;
   width: 620px;
-  font-size: 4.1vw;
+  font-size: 64px;
   font-weight: bold;
   line-height: mixed;
   letter-spacing: 0;
@@ -126,7 +125,7 @@ body {
 .hero-left p {
   height: 136px;
   width: 485px;
-  font-size: 1vw;
+  font-size: 16px;
   line-height: 34px;
   letter-spacing: 0;
   text-transform: capitalize;
@@ -176,24 +175,28 @@ body {
   position: relative;
   left: 20%;
   top: 7%;
-  height: 104vh;
-  width: 45vw;
+  height: 727px;
+  width: 633px;
 }
 
 .hero-right .hero-img {
+  height: 727px;
+  width: 506px;
   position: absolute;
   left: 7%;
   top: 0%;
 }
 
 .hero-right .upper-box {
+  height: 117px;
+  width: 350px;
   display: flex;
   align-items: center;
   justify-content: center;
   gap: 20px;
   position: absolute;
   top: 55%;
-  left: 2%;
+  left: 0%;
   background-color: white;
   padding: 20px 15px;
   border-radius: 10px;
@@ -212,6 +215,8 @@ body {
 }
 
 .hero-right .bottom-box {
+  width: 270px;
+  height: 113px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -220,9 +225,14 @@ body {
   top: 75%;
   left: 59%;
   background-color: white;
-  padding: 20px 30px;
+  padding: 30px 30px;
   border-radius: 10px;
   box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.bottom-box1 img{
+  height: 80px;
+  width: 80px;
 }
 
 .hero-right .bottom-box2 h5 {
@@ -231,13 +241,15 @@ body {
 }
 
 .hero-right .bottom-box2 p {
+  width: 124px;
   font-size: 17px;
   font-weight: 400;
+  line-height: auto;
   color: #666666;
 }
 
 .our-service{
-    height: 77vh;
+    height: 708px;
     width: 100%;
 }
 
@@ -246,13 +258,13 @@ body {
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    gap: 1.7vw;
+    gap: 26px;
     margin-top: 3.5vw;
 }
 
 .service-header button{
     font-size: 18px;
-    font-weight: 500;
+    font-weight: 600;
     text-transform: capitalize;
     padding: 10px 20px;
     border-radius: 6px;
@@ -260,6 +272,7 @@ body {
     background-color: #FFDFE4;
     transition: all 0.3s ease;
     cursor: pointer;
+    line-height: auto;
 }
 
 .service-header button:hover{
@@ -273,7 +286,7 @@ body {
 }
 
 .our-service .service-main{
-    height: 100%;
+    height: 450px;
     width: 100%;
     display: flex;
     align-items: center;
@@ -283,8 +296,8 @@ body {
 }
 
 .service-main .service-card{
-    height: 64vh;
-    width: 19.4vw;
+    height: 450px;
+    width: 298px;
     background-color: white;
     display: flex;
     align-items: center;
@@ -333,12 +346,12 @@ body {
 @media (max-width:768px) {
   
 .navbar {
-  height: 90px;
+  height: 100px;
   width: 100%;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 0vw 3vw;
+  padding: 0vw 30px;
   background-color: white;
   box-shadow: 0 2px 10px rgba(0,0,0,0.1); /* Optional: adds a subtle shadow */
 }
@@ -442,6 +455,8 @@ body {
 }
 
 .hero-right .upper-box {
+  height: 58px;
+  width: 200px; 
   gap: 10px;
   position: absolute;
   top: 55%;
@@ -463,16 +478,18 @@ body {
 }
 
 .hero-right .bottom-box {
+  width: 190px;
+  height: 70px;
   gap: 10px;
   position: absolute;
   top: 75%;
   left: 59%;
-  padding: 10px 20px;
+  padding: 15px 15px;
 }
 
 .hero-right .bottom-box1 img{
-  height: 10vh;
-  width: 8vw;
+  height: 40px;
+  width: 40px;
 }
 
 .hero-right .bottom-box2 h5 {
@@ -688,8 +705,10 @@ body {
 }
 
 .hero-right .upper-box {
+  height: 60px;
+  width: 150px;
   gap: 7px;
-  padding: 5px 10px;
+  padding: 5px 5px;
 }
 
 .hero-right .upper-box1 h6 {
@@ -702,8 +721,10 @@ body {
 }
 
 .hero-right .bottom-box {
+  height: 60px;
+  width: 130px;
   gap: 7px;
-  padding: 5px 10px;
+  padding: 10px 10px;
 }
 
 .hero-right .bottom-box2 h5 {
@@ -711,6 +732,7 @@ body {
 }
 
 .hero-right .bottom-box2 p {
+  width: 70px;
   font-size: 10px;
 }
 
